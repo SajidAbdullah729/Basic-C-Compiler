@@ -103,7 +103,7 @@ string FinalCommentRemove1(string &s)
     return ans;
 }
 
-void Assignment1()
+void process1()
 {
 
     FileName.open("input.c",ios::in);
@@ -372,7 +372,7 @@ string LeximeSeparation(string s)
 
 
 
-void Assignment2()
+void process2()
 {
     init();
     fstream file1,file2;
@@ -679,7 +679,7 @@ string Step4(string s)
     }
     return temp;
 }
-void Assignment3()
+void process3()
 {
      fstream file1,file2;
     file1.open("output2.txt",ios::in);
@@ -927,7 +927,7 @@ void Print()
 }
 
 
-void Assignment4()
+void process4()
 {
     ifstream FileName;
     fstream File2,File3;
@@ -974,13 +974,13 @@ void Assignment4()
 int main()
 {
     cout<<"(            1st procedure                )\n\n\n\n ";
-    Assignment1();
+    process1();
      cout<<"(           2nd procedure                )\n\n\n\n ";
-    Assignment2();
+    process2();
      cout<<"(            3rd procedure                )\n\n\n\n ";
-    Assignment3();
+    process3();
     cout<<"(            4th procedure                )\n\n\n\n ";
-    Assignment4();
+    process4();
 
 
 
