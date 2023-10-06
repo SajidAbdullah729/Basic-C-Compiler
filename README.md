@@ -1,2 +1,2 @@
 # Formal-Language-Compiler-Project
-Here are my formal language compiler whole project. It is created with C++.
+It is a basic C compiler to detect error in code.
